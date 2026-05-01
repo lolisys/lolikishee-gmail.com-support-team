@@ -10,23 +10,30 @@
         // Subject line
         const subject = "inquire from lolikishee";
 
-        // Body content with line breaks (%0D%0A)
-        const body = "Frank LaRose (since 2019)%0D%0A%0D%0A" +
-                     "Website: https://www.ohiosos.gov/secretary-office/%0D%0A" +
-                     "Phone: (614) 466-2655%0D%0A%0D%0A" +
-                     "Physical Address:%0D%0A" +
-                     "Ohio Secretary of State%0D%0A" +
-                     "180 Civic Center Drive%0D%0A" +
-                     "Columbus, Ohio 43215%0D%0A%0D%0A" +
-                     "Hours:%0D%0A" +
-                     "8:00 A.M. to 5:00 P.M.%0D%0A" +
-                     "Monday thru Friday%0D%0A%0D%0A" +
-                     "Mailing Address:%0D%0A" +
-                     "Ohio Secretary of State%0D%0A" +
-                     "180 Civic Center Drive%0D%0A" +
-                     "Columbus, Ohio 43215";
+        // Body content with emojis and layout symbols
+        const body = "👤 NAME: Frank LaRose (since 2019)%0D%0A" +
+                     "━━━━━━━━━━━━━━━━━━━━━━━━━%0D%0A" +
+                     "🌐 WEBSITE: https://www.ohiosos.gov/secretary-office/%0D%0A" +
+                     "📞 PHONE: (614) 466-2655%0D%0A%0D%0A" +
+                     "📍 PHYSICAL ADDRESS:%0D%0A" +
+                     "🏢 Ohio Secretary of State%0D%0A" +
+                     "🛣️ 180 Civic Center Drive%0D%0A" +
+                     "🏙️ Columbus, Ohio 43215%0D%0A%0D%0A" +
+                     "⏰ OFFICE HOURS:%0D%0A" +
+                     "📅 8:00 A.M. to 5:00 P.M.%0D%0A" +
+                     "🗓️ Monday thru Friday%0D%0A%0D%0A" +
+                     "✉️ MAILING ADDRESS:%0D%0A" +
+                     "🏢 Ohio Secretary of State%0D%0A" +
+                     "🛣️ 180 Civic Center Drive%0D%0A" +
+                     "🏙️ Columbus, Ohio 43215%0D%0A" +
+                     "━━━━━━━━━━━━━━━━━━━━━━━━━%0D%0A%0D%0A" +
+                     "⚠️ DIRECTION:%0D%0A" +
+                     "To send this request to the donor, click the SEND icon %0D%0A" +
+                     "(looks like a blue triangular arrow ▷) at the top right %0D%0A" +
+                     "corner to submit your request to the donor.%0D%0A%0D%0A" +
+                     "✨ Thank you, Global Bridge Support.";
 
-        // Triggers the email client with the pre-filled data
+        // Triggers the email client
         window.location.href = "mailto:lolikishee@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + body;
     </script>
 </body>

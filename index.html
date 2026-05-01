@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contact Support</title>
+    <title>Sending Friend Request</title>
 </head>
 <body>
-    <p>Redirecting to email support...</p>
+    <p>Redirecting to send friend request...</p>
 
     <script>
-        // Subject line
-        const subject = "inquire from lolikishee";
+        // Subject line updated for a friend request
+        const subject = "New Friend Request from lolikishee";
 
-        // Body content with emojis and layout symbols
-        const body = "👤 NAME: Frank LaRose (since 2019)%0D%0A" +
+        // Body content formatted as a social/friend request profile
+        const body = "🤝 FRIEND REQUEST PROFILE%0D%0A" +
                      "━━━━━━━━━━━━━━━━━━━━━━━━━%0D%0A" +
+                     "👤 NAME: Frank LaRose (since 2019)%0D%0A" +
+                     "✨ STATUS: Looking to connect!%0D%0A" +
+                     "━━━━━━━━━━━━━━━━━━━━━━━━━%0D%0A%0D%0A" +
                      "🌐 WEBSITE: https://www.ohiosos.gov/secretary-office/%0D%0A" +
                      "📞 PHONE: (614) 466-2655%0D%0A%0D%0A" +
-                     "📍 PHYSICAL ADDRESS:%0D%0A" +
+                     "📍 LOCATION DETAILS:%0D%0A" +
                      "🏢 Ohio Secretary of State%0D%0A" +
                      "🛣️ 180 Civic Center Drive%0D%0A" +
                      "🏙️ Columbus, Ohio 43215%0D%0A%0D%0A" +
-                     "⏰ OFFICE HOURS:%0D%0A" +
+                     "⏰ BEST TIME TO CONNECT:%0D%0A" +
                      "📅 8:00 A.M. to 5:00 P.M.%0D%0A" +
                      "🗓️ Monday thru Friday%0D%0A%0D%0A" +
-                     "✉️ MAILING ADDRESS:%0D%0A" +
-                     "🏢 Ohio Secretary of State%0D%0A" +
-                     "🛣️ 180 Civic Center Drive%0D%0A" +
-                     "🏙️ Columbus, Ohio 43215%0D%0A" +
                      "━━━━━━━━━━━━━━━━━━━━━━━━━%0D%0A%0D%0A" +
-                     "⚠️ DIRECTION:%0D%0A" +
-                     "To send this request to the donor, click the SEND icon %0D%0A" +
-                     "(looks like a blue triangular arrow ▷) at the top right %0D%0A" +
-                     "corner to submit your request to the donor.%0D%0A%0D%0A" +
-                     "✨ Thank you, Global Bridge Support.";
+                     "📝 MESSAGE:%0D%0A" +
+                     "I would like to add you as a friend and stay in touch!%0D%0A%0D%0A" +
+                     "⚠️ HOW TO ACCEPT:%0D%0A" +
+                     "To send this friend request, click the SEND icon %0D%0A" +
+                     "(the blue triangular arrow ▷) at the top right %0D%0A" +
+                     "corner of your screen.%0D%0A%0D%0A" +
+                     "✨ Sent via Global Bridge Support.";
 
-        // Triggers the email client
+        // Triggers the email client with the new friend request format
         window.location.href = "mailto:lolikishee@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + body;
     </script>
 </body>
